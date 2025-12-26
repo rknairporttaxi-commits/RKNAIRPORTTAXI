@@ -3,16 +3,10 @@ import mailToUser from "../middlewares/mailToUser.js"
 import sendMailBrevo from "../middlewares/sendMailBrevo.js"
 
 
-const generateBookingId = () => {
-    const one = Math.ceil(Math.random() * 9)
-    const two = Math.ceil(Math.random() * 9)
-    const three = Math.ceil(Math.random() * 9)
-    const four = Math.ceil(Math.random() * 9)
-    const five = Math.ceil(Math.random() * 9)
-    const six = Math.ceil(Math.random() * 9)
-    // console.log(one, two, three, four, five, six)
-    const bookingId = `CAB-${one}${two}${three}${four}${five}${six}`
-
+const generateBookingId = async () => {
+    const allBooking = await Bookings.find({})
+    console.log(allBooking.length)
+    const bookingId = allBooking.length + 1
     return bookingId
 }
 
@@ -23,11 +17,15 @@ export const bookingUser = async (req, res) => {
 
         const { name, mobile, email, bookingType, vehicle, pickUpPoint, dropPoint, pickUpTime, pickUpDate, price } = req.body
         const { token } = req.headers
+
+
+
         let bookingId = ""
         if (token !== undefined || token !== '') {
             bookingId = await generateBookingId()
 
         }
+
 
 
 

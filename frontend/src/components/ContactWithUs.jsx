@@ -62,7 +62,7 @@ const ContactWithUs = () => {
 
 
                         <div className="my-3 flex items-center gap-x-3">
-                            <a className="text-md font-semibold text-gray-700 my-1 flex gap-1 items-center" href="https://www.facebook.com/" target="_blank">
+                            <a className="text-md font-semibold text-gray-700 my-1 flex gap-1 items-center" href="https://www.facebook.com/profile.php?id=61585245333469" target="_blank">
                                 <img src={facebook} alt="Facebook" className="w-5 h-5" />
                                 {/*/ 
                             <p>Facebook</p>

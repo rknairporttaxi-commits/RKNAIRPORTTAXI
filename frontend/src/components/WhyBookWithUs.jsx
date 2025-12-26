@@ -1,7 +1,10 @@
 
-
+import { useContext } from "react"
+import { MainContext } from "../context/MainContext"
 
 const WhyBookWithUs = () => {
+
+    const { adminPhoneNumber1 } = useContext(MainContext)
 
     return (
         <div className="px-5 py-5 w-full text-gray-50 mx-2 shadow-xl rounded-md">
@@ -13,9 +16,8 @@ const WhyBookWithUs = () => {
                     <h1 className="text-xl font-bold my-1 text-[#007BFF] ">🕒 1. 24/7 Reliable Service</h1>
                     <p className="text-md font-semibold text-gray-700 my-1">We’re available round the clock to make sure your ride is always on time — day or night.</p>
                     <p className="text-md font-semibold text-gray-700 my-1 flex gap-x-3">
-                        <a href={`tel:+916303845985`} className=" hover:text-[#007BFF]" >6303845985</a>
-                        <a href={`tel:+916303845985`} className=" hover:text-[#007BFF]" >6303845985</a>
-                        <a href={`tel:+916303845985`} className=" hover:text-[#007BFF]" >6303845985</a>
+                        <a href={`tel:+91${adminPhoneNumber1}`} className=" hover:text-[#007BFF]" >{adminPhoneNumber1}</a>
+
                     </p>
                 </div>
 

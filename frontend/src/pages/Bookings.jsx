@@ -136,10 +136,12 @@ const Bookings = () => {
         const pickUpTimeString = pickUpTime['time']
         //console.log(pickUpTimeString)
 
+        if (token === undefined || token === "") {
+            navigate("/login")
+        }
 
 
-
-
+        console.log(token)
 
         const response = await axios.post(backendUrl + "/api/book/booking", {
             name,
@@ -152,7 +154,7 @@ const Bookings = () => {
             pickUpTime: pickUpTimeString,
             pickUpDate: newPresentDateString,
             price
-        }, {})
+        }, { headers: { token } })
         console.log(response.data)
         if (response.data.success === true) {
             const { bookingId } = response.data.bookingDetails
@@ -223,7 +225,7 @@ const Bookings = () => {
     }, [])
 
 
-    console.log(vehicle, bookingType)
+    //console.log(vehicle, bookingType)
 
     return (
         <div className='px-5 py-2 sm:flex sm:items-center sm:justify-center w-full min-h-screen bg-[#F9FAFB]'>
