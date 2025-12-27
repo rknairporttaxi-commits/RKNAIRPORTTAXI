@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 import { carousel1, carousel2, carousel3, carousel4, carousel5, carousel6, carousel7, c1, c2, c3 } from "../assets/assets.js"
 import { MainContext } from "../context/MainContext.jsx";
 const images = [
-    c1, c2, c3
+    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
 
 ];
 
