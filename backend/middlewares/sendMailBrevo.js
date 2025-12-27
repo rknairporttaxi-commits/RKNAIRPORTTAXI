@@ -114,7 +114,7 @@ const sendMailBrevo = async (newBooking) => {
                 <body>
                 <div class="email-container">
                     <div class="header">
-                    <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/ffffff/external-taxi-car-service-flatart-icons-outline-flatarticons.png"
+                    <img src="https://res.cloudinary.com/dchkwygu9/image/upload/v1766812181/web_logobg_s3rzk2.png"
                         alt="Cab Logo" />
                     <h1>Booking</h1>
                     <p>Your ride is confirmed 🚖</p>
@@ -154,7 +154,7 @@ const sendMailBrevo = async (newBooking) => {
 
 
     await transporter.sendMail({
-        from: '"RKN AIRPORT TAXI" <jppremkumar012@gmail.com>',
+        from: '"RKN AIRPORT TAXI" <rknairporttaxi@gmail.com>',
         to: email,
         subject: 'Your Cab Booking Confirmation',
         html: htmlTemplate
