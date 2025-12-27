@@ -23,7 +23,7 @@ const ContactWithUs = () => {
 
                 <div className="my-2">
                     <h1 className="text-xl font-bold  my-1 text-[#007BFF]">📍 Visit Us:</h1>
-                    <p className="text-md font-semibold text-gray-700 my-1">RKN TRAVELS .</p>
+                    <p className="text-md font-semibold text-gray-700 my-1">RKN AIRPORT TAXI  </p>
                     <p className="text-md font-semibold text-gray-700 my-1">#02 63/1 , 9th Cross ,<br />
                         Teachers Colony ,<br /> HSR 5th Sector, <br /> Bengalore – 560034.</p>
                 </div>
