@@ -9,7 +9,7 @@ const VehicleItem = ({ item, getAllVehicles }) => {
 
     const { backendUrl, token, navigate, setToken } = useContext(MainContext)
 
-    const { vehicle, imageUrl, price, capacity, bookingType, _id, bookingId } = item
+    const { vehicle, imageUrl, price, capacity, bookingType, _id } = item
     //console.log(_id)
 
 
@@ -27,7 +27,6 @@ const VehicleItem = ({ item, getAllVehicles }) => {
 
                 <div className="my-2">
                     <p className="text-md font-semibold text-gray-600">Vehicle : <span className="text-gray-900">{vehicle}</span> </p>
-                    <p className="text-md font-semibold text-gray-600">Booking ID : <span className="text-gray-900">{bookingId}</span> </p>
 
                     <p className="text-md font-semibold text-gray-600">Booking Type : <span className="text-gray-900">{bookingType}</span> </p>
                     <p className="text-md font-semibold text-gray-600">Price : <span className="text-gray-900">{price}</span> </p>
