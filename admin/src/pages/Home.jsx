@@ -31,7 +31,7 @@ const Home = () => {
         getAllBookings()
     }, [])
 
-    // console.log(allBookings)
+    console.log(allBookings)
 
 
 
@@ -52,6 +52,7 @@ const Home = () => {
                         <div className="grid grid-cols-1 sm:grid-cols-3  gap-x-5 gap-y-5">
                             {
                                 allBookings.map((item) => (
+
 
                                     <BookingItem item={item} key={item._id} />
                                 ))
