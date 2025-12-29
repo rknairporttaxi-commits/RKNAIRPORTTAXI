@@ -30,7 +30,7 @@ const LuxuryItem = ({ item }) => {
     // Optimize Cloudinary URL
     const optimizedImage = imageUrl.replace(
         "/upload/",
-        "/upload/f_auto,q_auto,w_500/"
+        "/upload/w_600,q_auto,f_webp/"
     );
 
 
@@ -38,7 +38,7 @@ const LuxuryItem = ({ item }) => {
 
         <div className="text-[#111827]  sm:m-2 m-2 my-4 shadow-md  bg-white " onClick={onClickCard}>
             <div className="flex justify-center my-2 px-10 py-4">
-                <img src={imageUrl} alt={`${vehicle}`} loading="lazy" width={900} height={550} />
+                <img src={optimizedImage} alt={`${vehicle}`} loading="lazy" width={900} height={550} />
             </div>
 
             <div className="px-5 flex  flex-col items-center gap-2 ">
