@@ -2,9 +2,9 @@ import { Helmet } from "react-helmet";
 
 const HelmetSeo = () => {
     const bannerImages = [
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png",
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png",
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983683/c1_gwvd7l.jpg",
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983702/c2_ry5nm8.jpg",
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983721/c3_wu1pkg.jpg"
     ];
 
     const logo =

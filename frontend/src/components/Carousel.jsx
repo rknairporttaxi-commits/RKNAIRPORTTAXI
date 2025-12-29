@@ -2,7 +2,9 @@ import React, { useEffect, useState, useContext } from "react";
 import { carousel1, carousel2, carousel3, carousel4, carousel5, carousel6, carousel7, c1, c2, c3 } from "../assets/assets.js"
 import { MainContext } from "../context/MainContext.jsx";
 const images = [
-    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
+    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983683/c1_gwvd7l.jpg",
+    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983702/c2_ry5nm8.jpg",
+    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766983721/c3_wu1pkg.jpg"
 
 ];
 
@@ -40,11 +42,12 @@ const Carousel = () => {
                     >
                         <img
                             src={img}
-                            loading="lazy"
                             className="w-full h-64 sm:h-120"
-                            alt="banner"
-
-
+                            alt="RKN Airport Taxi Bangalore"
+                            fetchPriority="high"
+                            loading="eager"
+                            width="1200"
+                            height="600"
                         />
 
                     </div>
