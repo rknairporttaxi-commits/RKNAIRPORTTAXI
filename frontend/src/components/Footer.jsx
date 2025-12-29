@@ -20,14 +20,14 @@ const Footer = () => {
                     <a href={`https://wa.me/91${adminPhoneNumber1}`} target="_blank"
                         className="mx-5" aria-label="Chat on Whatsapp"
                     >
-                        <img src={whatsapp} alt="whatsapp" className="w-10 h-10 sm:hover:w-20 sm:hover:h-20" />
+                        <img src={`https://res.cloudinary.com/dchkwygu9/image/upload/v1766981758/whatsapp_fghhli.png`} alt="whatsapp" lazy="loading" className="w-10 h-10 sm:hover:w-20 sm:hover:h-20" />
                     </a>
                 </div>
                 <div className="sm:h-25 w-[70%]"></div>
                 <div className="sm:h-25 w-[15%] sm:flex justify-center items-center">
 
                     <a href={`tel:+91${adminPhoneNumber1}`} className="mx-5" aria-label="Call Us">
-                        <img src={telephone} alt="telephone" className="w-10 h-10  sm:hover:w-20 sm:hover:h-20" />
+                        <img src={`https://res.cloudinary.com/dchkwygu9/image/upload/v1766981758/telephone_hpmc4u.png`} alt="telephone" lazy="loading" className="w-10 h-10  sm:hover:w-20 sm:hover:h-20" />
                     </a>
                 </div>
             </div>
