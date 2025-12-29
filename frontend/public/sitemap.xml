@@ -2,48 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/</loc>
+    <loc>https://www.rknairporttaxi.com/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/booking</loc>
+    <loc>https://www.rknairporttaxi.com/airportTaxi</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/services</loc>
+    <loc>https://www.rknairporttaxi.com/localTaxi</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rknairporttaxi.com/outStation</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rknairporttaxi.com/luxuryCars</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/outStation</loc>
-    <priority>0.80</priority>
+    <loc>https://www.rknairporttaxi.com/termsOfServices</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/innovaStation</loc>
-    <priority>0.80</priority>
-  </url>
-
-  <url>
-    <loc>https://booking-one-sage.vercel.app/aboutUs</loc>
+    <loc>https://www.rknairporttaxi.com/aboutUs</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/contactUs</loc>
+    <loc>https://www.rknairporttaxi.com/contactUs</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
 
   <url>
-    <loc>https://booking-one-sage.vercel.app/login</loc>
-    <priority>0.50</priority>
-  </url>
-
-  <url>
-    <loc>https://booking-one-sage.vercel.app/register</loc>
-    <priority>0.50</priority>
+    <loc>https://www.rknairporttaxi.com/privacy-policy</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.40</priority>
   </url>
 
 </urlset>

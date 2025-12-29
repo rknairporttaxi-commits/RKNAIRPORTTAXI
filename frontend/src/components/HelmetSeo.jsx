@@ -2,68 +2,89 @@ import { Helmet } from "react-helmet";
 
 const HelmetSeo = () => {
     return (
-        <>
-            <Helmet>
-                {/* Basic SEO */}
+        <Helmet>
+            {/* ================= BASIC SEO ================= */}
 
-                <meta
-                    name="description"
-                    content="Book affordable cabs in Bengaluru for airport pickup and drop. Fast, reliable, and safe cab booking services near you."
-                />
-                <meta
-                    name="keywords"
-                    content="cab booking Bengaluru, airport taxi Bengaluru, pickup and drop cab, taxi near me, Bengaluru airport cab, book cab online Bengaluru"
-                />
+            <title>
+                RKN Airport Taxi | Bangalore Airport Taxi – 24/7 Cab Service
+            </title>
 
-                {/* Open Graph / Facebook */}
-                <meta property="og:type" content="website" />
-                <meta property="og:title" content="Cab Booking in Bengaluru - Fast Airport Rides" />
-                <meta
-                    property="og:description"
-                    content="Instant cab booking for Bengaluru Airport. Hassle-free pickups and drops with live tracking and verified drivers."
-                />
-                <meta property="og:url" content="https://yourfrontenddomain.com" />
-                <meta property="og:image" content="https://yourfrontenddomain.com/preview.jpg" />
+            <meta
+                name="description"
+                content="Book reliable Bangalore airport taxi with RKN Airport Taxi. 24/7 airport pickup & drop, clean cabs, professional drivers, instant WhatsApp booking."
+            />
 
-                {/* Twitter */}
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Cab Booking in Bengaluru | Safe Airport Transfers" />
-                <meta
-                    name="twitter:description"
-                    content="Bengaluru’s reliable cab booking app for airport pickups and drops. Easy booking, fixed fares, verified drivers."
-                />
-                <meta name="twitter:image" content="https://yourfrontenddomain.com/preview.jpg" />
+            <meta
+                name="keywords"
+                content="bangalore airport taxi, airport taxi bangalore, kempegowda airport cab, airport pickup drop bangalore, rkn airport taxi, taxi to bangalore airport"
+            />
 
-                {/* Schema.org Structured Data */}
-                <script type="application/ld+json">
-                    {JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "LocalBusiness",
-                        "name": "Bengaluru Cab Booking Service",
-                        "image": "https://yourfrontenddomain.com/logo.png",
-                        "url": "https://yourfrontenddomain.com",
-                        "telephone": "+91-9876543210",
-                        "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "Airport Road",
-                            "addressLocality": "Bengaluru",
-                            "addressRegion": "Karnataka",
-                            "postalCode": "560017",
-                            "addressCountry": "IN"
-                        },
-                        "openingHours": "Mo-Su 00:00-23:59",
-                        "priceRange": "₹₹",
-                        "servesCuisine": "Cab Service",
-                        "sameAs": [
-                            "https://www.facebook.com/yourpage",
-                            "https://www.instagram.com/yourpage",
-                            "https://www.twitter.com/yourpage"
-                        ]
-                    })}
-                </script>
-            </Helmet>
-        </>
+            <meta name="robots" content="index, follow" />
+
+            {/* ================= OPEN GRAPH (FACEBOOK / WHATSAPP) ================= */}
+
+            <meta property="og:type" content="website" />
+            <meta
+                property="og:title"
+                content="RKN Airport Taxi | Bangalore Airport Taxi – 24/7 Cab Service"
+            />
+            <meta
+                property="og:description"
+                content="Need a reliable Bangalore airport taxi? Book RKN Airport Taxi for safe, affordable, and on-time airport pickups & drops."
+            />
+            <meta property="og:url" content="https://www.rknairporttaxi.com" />
+            <meta
+                property="og:image"
+                content="https://www.rknairporttaxi.com/og-image.jpg"
+            />
+
+            {/* ================= TWITTER ================= */}
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta
+                name="twitter:title"
+                content="RKN Airport Taxi | Bangalore Airport Taxi"
+            />
+            <meta
+                name="twitter:description"
+                content="24/7 Bangalore airport cab service with professional drivers. Book airport taxi instantly with RKN Airport Taxi."
+            />
+            <meta
+                name="twitter:image"
+                content="https://www.rknairporttaxi.com/og-image.jpg"
+            />
+
+            {/* ================= LOCAL BUSINESS SCHEMA ================= */}
+
+            <script type="application/ld+json">
+                {JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "TaxiService",
+                    "name": "RKN Airport Taxi",
+                    "url": "https://www.rknairporttaxi.com",
+                    "logo": "https://www.rknairporttaxi.com/web_logobg.png",
+                    "image": "https://www.rknairporttaxi.com/og-image.jpg",
+                    "telephone": "+91-9000942998",
+                    "priceRange": "₹₹",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Bengaluru",
+                        "addressRegion": "Karnataka",
+                        "addressCountry": "IN"
+                    },
+                    "openingHours": "Mo-Su 00:00-23:59",
+                    "areaServed": {
+                        "@type": "City",
+                        "name": "Bengaluru"
+                    },
+                    "sameAs": [
+                        "https://www.facebook.com/rknairporttaxi",
+                        "https://www.instagram.com/rknairporttaxi"
+                    ]
+                })}
+            </script>
+        </Helmet>
     );
-}
+};
 
 export default HelmetSeo;

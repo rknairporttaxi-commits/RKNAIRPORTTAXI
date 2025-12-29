@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-Disallow: /api
+# Block backend / API routes
+Disallow: /api/
 Disallow: /api/*
 
-Sitemap: https://booking-one-sage.vercel.app/sitemap.xml
+# Sitemap
+Sitemap: https://www.rknairporttaxi.com/sitemap.xml
