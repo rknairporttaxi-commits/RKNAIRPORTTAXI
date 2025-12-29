@@ -1,6 +1,15 @@
 import { Helmet } from "react-helmet";
 
 const HelmetSeo = () => {
+    const bannerImages = [
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png",
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png",
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
+    ];
+
+    const logo =
+        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766978905/web_logobg_tdvtwl.png";
+
     return (
         <Helmet>
             {/* ================= BASIC SEO ================= */}
@@ -16,45 +25,31 @@ const HelmetSeo = () => {
 
             <meta
                 name="keywords"
-                content="bangalore airport taxi, airport taxi bangalore, kempegowda airport cab, airport pickup drop bangalore, rkn airport taxi, taxi to bangalore airport"
+                content="bangalore airport taxi, bengaluru airport cab, kempegowda airport taxi, airport pickup drop bangalore, rkn airport taxi"
             />
 
             <meta name="robots" content="index, follow" />
 
-            {/* ================= OPEN GRAPH (FACEBOOK / WHATSAPP) ================= */}
+            {/* ================= OPEN GRAPH (WHATSAPP / FACEBOOK) ================= */}
 
             <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://www.rknairporttaxi.com" />
             <meta
                 property="og:title"
-                content="RKN Airport Taxi | Bangalore Airport Taxi – 24/7 Cab Service"
+                content="RKN Airport Taxi | Bangalore Airport Pickup & Drop"
             />
             <meta
                 property="og:description"
-                content="Need a reliable Bangalore airport taxi? Book RKN Airport Taxi for safe, affordable, and on-time airport pickups & drops."
+                content="24/7 Bangalore airport taxi service. Clean cabs, professional drivers, instant WhatsApp booking."
             />
-            <meta property="og:url" content="https://www.rknairporttaxi.com" />
-            <meta
-                property="og:image"
-                content="https://www.rknairporttaxi.com/og-image.jpg"
-            />
+            <meta property="og:image" content={bannerImages[0]} />
 
             {/* ================= TWITTER ================= */}
 
             <meta name="twitter:card" content="summary_large_image" />
-            <meta
-                name="twitter:title"
-                content="RKN Airport Taxi | Bangalore Airport Taxi"
-            />
-            <meta
-                name="twitter:description"
-                content="24/7 Bangalore airport cab service with professional drivers. Book airport taxi instantly with RKN Airport Taxi."
-            />
-            <meta
-                name="twitter:image"
-                content="https://www.rknairporttaxi.com/og-image.jpg"
-            />
+            <meta name="twitter:image" content={bannerImages[0]} />
 
-            {/* ================= LOCAL BUSINESS SCHEMA ================= */}
+            {/* ================= SCHEMA (GOOGLE) ================= */}
 
             <script type="application/ld+json">
                 {JSON.stringify({
@@ -62,8 +57,8 @@ const HelmetSeo = () => {
                     "@type": "TaxiService",
                     "name": "RKN Airport Taxi",
                     "url": "https://www.rknairporttaxi.com",
-                    "logo": "https://www.rknairporttaxi.com/web_logobg.png",
-                    "image": "https://www.rknairporttaxi.com/og-image.jpg",
+                    "logo": logo,
+                    "image": bannerImages,
                     "telephone": "+91-9000942998",
                     "priceRange": "₹₹",
                     "address": {
@@ -76,11 +71,7 @@ const HelmetSeo = () => {
                     "areaServed": {
                         "@type": "City",
                         "name": "Bengaluru"
-                    },
-                    "sameAs": [
-                        "https://www.facebook.com/profile.php?id=61585245333469",
-                        "https://www.instagram.com/rknairporttaxi/"
-                    ]
+                    }
                 })}
             </script>
         </Helmet>

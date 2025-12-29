@@ -1,78 +1,69 @@
-import { Helmet } from "react-helmet";
+import React, { useEffect, useState, useContext } from "react";
+import { carousel1, carousel2, carousel3, carousel4, carousel5, carousel6, carousel7, c1, c2, c3 } from "../assets/assets.js"
+import { MainContext } from "../context/MainContext.jsx";
+const images = [
+    "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png", "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
 
-const HelmetSeo = () => {
-    const bannerImages = [
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831260/c1_hczj98.png",
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831362/c2_xnkmz3.png",
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766831432/c3_apdhcw.png"
-    ];
+];
 
-    const logo =
-        "https://res.cloudinary.com/dchkwygu9/image/upload/v1766978905/web_logobg_tdvtwl.png";
+const Carousel = () => {
+    const [index, setIndex] = useState(0);
+
+    const { navigate } = useContext(MainContext)
+    // Auto slide every 4 seconds
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIndex((prev) => (prev + 1) % images.length);
+        }, 3000);
+        return () => clearInterval(interval);
+    }, []);
+
+
+    const onClickBook = () => {
+        navigate("/booking/1")
+    }
 
     return (
-        <Helmet>
-            {/* ================= BASIC SEO ================= */}
+        <div className="relative w-full  overflow-hidden mb-5">
+            {/* Slides */}
+            <div
+                className="flex transition-transform duration-700 ease-in-out"
+                style={{ transform: `translateX(-${index * 100}%)` }}
+            >
+                {images.map((img, i) => (
+                    <div
+                        key={i}
+                        className="w-full flex-shrink-0 bg-center bg-cover bg-no-repeat flex flex-col justify-center items-center cursor-pointer "
 
-            <title>
-                RKN Airport Taxi | Bangalore Airport Taxi – 24/7 Cab Service
-            </title>
+                        aria-label={`Slide ${i}`}
+                        onClick={onClickBook}
+                    >
+                        <img
+                            src={img}
+                            loading="lazy"
+                            className="w-full h-64 sm:h-120"
 
-            <meta
-                name="description"
-                content="Book reliable Bangalore airport taxi with RKN Airport Taxi. 24/7 airport pickup & drop, clean cabs, professional drivers, instant WhatsApp booking."
-            />
 
-            <meta
-                name="keywords"
-                content="bangalore airport taxi, airport taxi bangalore, kempegowda airport cab, airport pickup drop bangalore, rkn airport taxi"
-            />
+                        />
 
-            <meta name="robots" content="index, follow" />
+                    </div>
+                ))}
+            </div>
 
-            {/* ================= OPEN GRAPH / WHATSAPP ================= */}
-
-            <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://www.rknairporttaxi.com" />
-            <meta property="og:title" content="RKN Airport Taxi – Bangalore Airport Pickup & Drop" />
-            <meta
-                property="og:description"
-                content="24/7 Bangalore airport taxi service. Clean cabs, professional drivers, instant WhatsApp booking."
-            />
-            <meta property="og:image" content={bannerImages[0]} />
-
-            {/* ================= TWITTER ================= */}
-
-            <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:image" content={bannerImages[0]} />
-
-            {/* ================= SCHEMA (GOOGLE) ================= */}
-
-            <script type="application/ld+json">
-                {JSON.stringify({
-                    "@context": "https://schema.org",
-                    "@type": "TaxiService",
-                    "name": "RKN Airport Taxi",
-                    "url": "https://www.rknairporttaxi.com",
-                    "logo": logo,
-                    "image": bannerImages,
-                    "telephone": "+91-9000942998",
-                    "priceRange": "₹₹",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Bengaluru",
-                        "addressRegion": "Karnataka",
-                        "addressCountry": "IN"
-                    },
-                    "openingHours": "Mo-Su 00:00-23:59",
-                    "areaServed": {
-                        "@type": "City",
-                        "name": "Bengaluru"
-                    }
-                })}
-            </script>
-        </Helmet>
+            {/* Navigation Dots 
+            <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-2">
+                {images.map((_, i) => (
+                    <button
+                        key={i}
+                        onClick={() => setIndex(i)}
+                        className={`w-3 h-3 rounded-full transition-all ${i === index ? "bg-white scale-125" : "bg-gray-400"
+                            }`}
+                    ></button>
+                ))}
+            </div>
+            */}
+        </div>
     );
 };
 
-export default HelmetSeo;
+export default Carousel;
