@@ -244,8 +244,8 @@ const AllLoaction = () => {
 
                 {
                     airportTaxiRoutes.map((item, index) => (
-                        <div className="bg-white m-3 p-2 text-center rounded-md">
-                            <a href={item.slug} target="_blank" key={index} className="font-semibold text-blue-500 hover:text-underline"> {item.anchor}</a>
+                        <div className="bg-white m-3 p-2 text-center rounded-md" key={index}>
+                            <a href={item.slug} target="_blank" className="font-semibold text-blue-500 hover:text-underline"> {item.anchor}</a>
                         </div>
 
                     ))
@@ -253,8 +253,8 @@ const AllLoaction = () => {
                 }
                 {
                     airportLinks.map((item, index) => (
-                        <div className="bg-white m-3 p-2 text-center rounded-md">
-                            <a href={item.slug} target="_blank" key={index} className="font-semibold text-blue-500 hover:underline">  {item.text}</a>
+                        <div className="bg-white m-3 p-2 text-center rounded-md" key={index} >
+                            <a href={item.slug} target="_blank" className="font-semibold text-blue-500 hover:underline">  {item.text}</a>
                         </div>
 
                     ))
