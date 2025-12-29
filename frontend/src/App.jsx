@@ -29,6 +29,8 @@ import AutoComplete from "./pages/AutoComplete"
 import ScrollToTop from "./components/ScrollToTop"
 import AirportTaxi from './pages/AirportTaxi'
 
+import AllLocation from "./components/AllLocation"
+
 
 const App = () => {
 
@@ -310,6 +312,8 @@ const App = () => {
               </Routes>
               <Footer />
               <ContactDetails />
+              <AllLocation />
+
               <AllRights />
 
             </>
