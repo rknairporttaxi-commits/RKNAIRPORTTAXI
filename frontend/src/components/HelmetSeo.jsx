@@ -78,8 +78,8 @@ const HelmetSeo = () => {
                         "name": "Bengaluru"
                     },
                     "sameAs": [
-                        "https://www.facebook.com/rknairporttaxi",
-                        "https://www.instagram.com/rknairporttaxi"
+                        "https://www.facebook.com/profile.php?id=61585245333469",
+                        "https://www.instagram.com/rknairporttaxi/"
                     ]
                 })}
             </script>
