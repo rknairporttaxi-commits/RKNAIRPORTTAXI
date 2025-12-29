@@ -42,6 +42,7 @@ const Carousel = () => {
                             src={img}
                             loading="lazy"
                             className="w-full h-64 sm:h-120"
+                            alt="banner"
 
 
                         />
