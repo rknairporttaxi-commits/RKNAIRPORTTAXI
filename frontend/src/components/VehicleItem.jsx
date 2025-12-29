@@ -43,7 +43,7 @@ const VehicleItem = ({ item }) => {
 
             <div className="px-5 flex  flex-col items-center gap-2 ">
 
-                <h1 className="text-2xl text-[#111827] font-bold text-medium sm:text-2xl">{vehicle}</h1>
+                <h3 className="text-2xl text-[#111827] font-bold text-medium sm:text-2xl">{vehicle}</h3>
                 <div className="flex items-center gap-x-2 text-sm sm:text-2xl">
                     <FaUsers className="text-[#111827] " />
                     <p className="text-xl sm:text-xl text-[#111827] font-semibold">Capacity : {capacity}+1</p>

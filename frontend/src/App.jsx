@@ -58,7 +58,7 @@ const App = () => {
               <Routes>
 
 
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Home title={"RKN Airport Taxi | Bengalore Airport Taxi Service 24/7"} />} />
                 {// <Route exact path="/booking/:id" element={<Booking />} /> 
                 }
                 <Route path="/booking/:id" element={<Bookings />} />
