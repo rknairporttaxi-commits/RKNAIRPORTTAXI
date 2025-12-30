@@ -41,6 +41,8 @@ const Navbar = () => {
 
     }, [])
 
+
+
     return (
         <div className='bg-white '>
 
