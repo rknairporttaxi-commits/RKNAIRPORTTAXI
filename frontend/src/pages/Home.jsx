@@ -13,7 +13,7 @@ import AirportTaxi from "../pages/AirportTaxi"
 import Innova from "../pages/Innova"
 import Outstation from "../pages/Outstation"
 import LocalStation from "../pages/LocalStation"
-import Seo from "../components/Seo"
+
 
 
 import MainTitle from "../components/MainTitle"
