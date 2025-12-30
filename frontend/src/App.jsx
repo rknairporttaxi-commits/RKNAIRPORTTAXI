@@ -1,6 +1,6 @@
 import { TailSpin } from 'react-loader-spinner'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { airportTaxiRoutes, MainContextProvider, airportLinks } from './context/MainContext'
+import { MainContextProvider, homeSeo, airportLinks, airportTaxiRoutes } from './context/MainContext'
 import { useState, useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
@@ -44,7 +44,6 @@ const App = () => {
 
 
 
-
   return (
     <div>
 
@@ -63,7 +62,7 @@ const App = () => {
               <Routes>
 
 
-                <Route path="/" element={<Home title={"RKN Airport Taxi | Bengalore Airport Taxi Service 24/7"} />} />
+                <Route path="/" element={<Home title={"RKN ARIPORT TAXI - 24/7 Services"} />} />
                 {// <Route exact path="/booking/:id" element={<Booking />} /> 
                 }
                 <Route path="/booking/:id" element={<Bookings />} />
@@ -80,6 +79,8 @@ const App = () => {
                 <Route path="/thankyou/:bookingId" element={<Thankyou />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/autoComplete" element={<AutoComplete />} />
+
+
 
 
 

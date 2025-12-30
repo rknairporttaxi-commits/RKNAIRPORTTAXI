@@ -13,10 +13,10 @@ import AirportTaxi from "../pages/AirportTaxi"
 import Innova from "../pages/Innova"
 import Outstation from "../pages/Outstation"
 import LocalStation from "../pages/LocalStation"
+import Seo from "../components/Seo"
 
 
-
-
+import MainTitle from "../components/MainTitle"
 
 const Home = ({ title }) => {
 
@@ -58,13 +58,9 @@ const Home = ({ title }) => {
 
 
 
+
             <Carousel />
-
-            <div className="my-5">
-                <h1 className="text-center text-blue-700 font-bold text-xl sm:text-3xl leading-tight ">{title}</h1>
-
-            </div>
-
+            <MainTitle title={title} />
 
 
             {

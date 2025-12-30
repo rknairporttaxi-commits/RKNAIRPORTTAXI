@@ -835,3 +835,466 @@ export const airportLinks = [
     { id: 199, slug: "bangalore-airport-to-ganganagar", text: "Airport Taxi from Ganganagar to Bangalore Airport" },
     { id: 200, slug: "bangalore-airport-to-hebbal-kempapura", text: "Airport Taxi from Hebbal Kempapura to Bangalore Airport" }
 ];
+
+
+
+
+export const seoPages = [
+    {
+        id: 1,
+        route: "/whitefield-to-bangalore-airport",
+        h1: "Whitefield to Bangalore Airport Taxi Near Me",
+        title: "Whitefield to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Whitefield to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "whitefield to bangalore airport taxi, airport taxi whitefield, cab from whitefield to airport, airport cab near me, taxi near me, whitefield airport taxi booking, kempegowda airport taxi whitefield"
+    },
+    {
+        id: 2,
+        route: "/bangalore-airport-to-whitefield",
+        h1: "Bangalore Airport to Whitefield Taxi Near Me",
+        title: "Bangalore Airport to Whitefield Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Whitefield taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to whitefield taxi, airport taxi to whitefield, cab from airport to whitefield, airport cab near me, taxi near me, whitefield airport taxi booking, kempegowda airport taxi whitefield"
+    },
+    {
+        id: 3,
+        route: "/indiranagar-to-bangalore-airport",
+        h1: "Indiranagar to Bangalore Airport Taxi Near Me",
+        title: "Indiranagar to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Indiranagar to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "indiranagar to bangalore airport taxi, airport taxi indiranagar, cab from indiranagar to airport, airport cab near me, taxi near me, indiranagar airport taxi booking, kempegowda airport taxi indiranagar"
+    },
+    {
+        id: 4,
+        route: "/bangalore-airport-to-indiranagar",
+        h1: "Bangalore Airport to Indiranagar Taxi Near Me",
+        title: "Bangalore Airport to Indiranagar Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Indiranagar taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to indiranagar taxi, airport taxi to indiranagar, cab from airport to indiranagar, airport cab near me, taxi near me, indiranagar airport taxi booking, kempegowda airport taxi indiranagar"
+    },
+    {
+        id: 5,
+        route: "/koramangala-to-bangalore-airport",
+        h1: "Koramangala to Bangalore Airport Taxi Near Me",
+        title: "Koramangala to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Koramangala to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "koramangala to bangalore airport taxi, airport taxi koramangala, cab from koramangala to airport, airport cab near me, taxi near me, koramangala airport taxi booking, kempegowda airport taxi koramangala"
+    },
+    {
+        id: 6,
+        route: "/bangalore-airport-to-koramangala",
+        h1: "Bangalore Airport to Koramangala Taxi Near Me",
+        title: "Bangalore Airport to Koramangala Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Koramangala taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to koramangala taxi, airport taxi to koramangala, cab from airport to koramangala, airport cab near me, taxi near me, koramangala airport taxi booking, kempegowda airport taxi koramangala"
+    },
+    {
+        id: 7,
+        route: "/jayanagar-to-bangalore-airport",
+        h1: "Jayanagar to Bangalore Airport Taxi Near Me",
+        title: "Jayanagar to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Jayanagar to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "jayanagar to bangalore airport taxi, airport taxi jayanagar, cab from jayanagar to airport, airport cab near me, taxi near me, jayanagar airport taxi booking, kempegowda airport taxi jayanagar"
+    },
+    {
+        id: 8,
+        route: "/bangalore-airport-to-jayanagar",
+        h1: "Bangalore Airport to Jayanagar Taxi Near Me",
+        title: "Bangalore Airport to Jayanagar Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Jayanagar taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to jayanagar taxi, airport taxi to jayanagar, cab from airport to jayanagar, airport cab near me, taxi near me, jayanagar airport taxi booking, kempegowda airport taxi jayanagar"
+    },
+    {
+        id: 9,
+        route: "/hsr-layout-to-bangalore-airport",
+        h1: "HSR Layout to Bangalore Airport Taxi Near Me",
+        title: "HSR Layout to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable HSR Layout to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "hsr layout to bangalore airport taxi, airport taxi hsr layout, cab from hsr layout to airport, airport cab near me, taxi near me, hsr layout airport taxi booking, kempegowda airport taxi hsr layout"
+    },
+    {
+        id: 10,
+        route: "/bangalore-airport-to-hsr-layout",
+        h1: "Bangalore Airport to HSR Layout Taxi Near Me",
+        title: "Bangalore Airport to HSR Layout Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to HSR Layout taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to hsr layout taxi, airport taxi to hsr layout, cab from airport to hsr layout, airport cab near me, taxi near me, hsr layout airport taxi booking, kempegowda airport taxi hsr layout"
+    },
+    {
+        id: 11,
+        route: "/electronic-city-to-bangalore-airport",
+        h1: "Electronic City to Bangalore Airport Taxi Near Me",
+        title: "Electronic City to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Electronic City to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "electronic city to bangalore airport taxi, airport taxi electronic city, cab from electronic city to airport, airport cab near me, taxi near me, electronic city airport taxi booking, kempegowda airport taxi electronic city"
+    },
+    {
+        id: 12,
+        route: "/bangalore-airport-to-electronic-city",
+        h1: "Bangalore Airport to Electronic City Taxi Near Me",
+        title: "Bangalore Airport to Electronic City Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Electronic City taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to electronic city taxi, airport taxi to electronic city, cab from airport to electronic city, airport cab near me, taxi near me, electronic city airport taxi booking, kempegowda airport taxi electronic city"
+    },
+    {
+        id: 13,
+        route: "/bellandur-to-bangalore-airport",
+        h1: "Bellandur to Bangalore Airport Taxi Near Me",
+        title: "Bellandur to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bellandur to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bellandur to bangalore airport taxi, airport taxi bellandur, cab from bellandur to airport, airport cab near me, taxi near me, bellandur airport taxi booking, kempegowda airport taxi bellandur"
+    },
+    {
+        id: 14,
+        route: "/bangalore-airport-to-bellandur",
+        h1: "Bangalore Airport to Bellandur Taxi Near Me",
+        title: "Bangalore Airport to Bellandur Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Bellandur taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to bellandur taxi, airport taxi to bellandur, cab from airport to bellandur, airport cab near me, taxi near me, bellandur airport taxi booking, kempegowda airport taxi bellandur"
+    },
+    {
+        id: 15,
+        route: "/marathahalli-to-bangalore-airport",
+        h1: "Marathahalli to Bangalore Airport Taxi Near Me",
+        title: "Marathahalli to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Marathahalli to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "marathahalli to bangalore airport taxi, airport taxi marathahalli, cab from marathahalli to airport, airport cab near me, taxi near me, marathahalli airport taxi booking, kempegowda airport taxi marathahalli"
+    },
+    {
+        id: 16,
+        route: "/bangalore-airport-to-marathahalli",
+        h1: "Bangalore Airport to Marathahalli Taxi Near Me",
+        title: "Bangalore Airport to Marathahalli Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Marathahalli taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to marathahalli taxi, airport taxi to marathahalli, cab from airport to marathahalli, airport cab near me, taxi near me, marathahalli airport taxi booking, kempegowda airport taxi marathahalli"
+    },
+    {
+        id: 17,
+        route: "/sarjapur-road-to-bangalore-airport",
+        h1: "Sarjapur Road to Bangalore Airport Taxi Near Me",
+        title: "Sarjapur Road to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Sarjapur Road to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "sarjapur road to bangalore airport taxi, airport taxi sarjapur road, cab from sarjapur road to airport, airport cab near me, taxi near me, sarjapur road airport taxi booking, kempegowda airport taxi sarjapur road"
+    },
+    {
+        id: 18,
+        route: "/bangalore-airport-to-sarjapur-road",
+        h1: "Bangalore Airport to Sarjapur Road Taxi Near Me",
+        title: "Bangalore Airport to Sarjapur Road Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Sarjapur Road taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to sarjapur road taxi, airport taxi to sarjapur road, cab from airport to sarjapur road, airport cab near me, taxi near me, sarjapur road airport taxi booking, kempegowda airport taxi sarjapur road"
+    },
+    {
+        id: 19,
+        route: "/hebbal-to-bangalore-airport",
+        h1: "Hebbal to Bangalore Airport Taxi Near Me",
+        title: "Hebbal to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Hebbal to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "hebbal to bangalore airport taxi, airport taxi hebbal, cab from hebbal to airport, airport cab near me, taxi near me, hebbal airport taxi booking, kempegowda airport taxi hebbal"
+    },
+    {
+        id: 20,
+        route: "/bangalore-airport-to-hebbal",
+        h1: "Bangalore Airport to Hebbal Taxi Near Me",
+        title: "Bangalore Airport to Hebbal Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Hebbal taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to hebbal taxi, airport taxi to hebbal, cab from airport to hebbal, airport cab near me, taxi near me, hebbal airport taxi booking, kempegowda airport taxi hebbal"
+    },
+    {
+        id: 21,
+        route: "/yelahanka-to-bangalore-airport",
+        h1: "Yelahanka to Bangalore Airport Taxi Near Me",
+        title: "Yelahanka to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Yelahanka to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "yelahanka to bangalore airport taxi, airport taxi yelahanka, cab from yelahanka to airport, airport cab near me, taxi near me, yelahanka airport taxi booking, kempegowda airport taxi yelahanka"
+    },
+    {
+        id: 22,
+        route: "/bangalore-airport-to-yelahanka",
+        h1: "Bangalore Airport to Yelahanka Taxi Near Me",
+        title: "Bangalore Airport to Yelahanka Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Yelahanka taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to yelahanka taxi, airport taxi to yelahanka, cab from airport to yelahanka, airport cab near me, taxi near me, yelahanka airport taxi booking, kempegowda airport taxi yelahanka"
+    },
+    {
+        id: 23,
+        route: "/malleswaram-to-bangalore-airport",
+        h1: "Malleswaram to Bangalore Airport Taxi Near Me",
+        title: "Malleswaram to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Malleswaram to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "malleswaram to bangalore airport taxi, airport taxi malleswaram, cab from malleswaram to airport, airport cab near me, taxi near me, malleswaram airport taxi booking, kempegowda airport taxi malleswaram"
+    },
+    {
+        id: 24,
+        route: "/bangalore-airport-to-malleswaram",
+        h1: "Bangalore Airport to Malleswaram Taxi Near Me",
+        title: "Bangalore Airport to Malleswaram Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Malleswaram taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to malleswaram taxi, airport taxi to malleswaram, cab from airport to malleswaram, airport cab near me, taxi near me, malleswaram airport taxi booking, kempegowda airport taxi malleswaram"
+    },
+    {
+        id: 25,
+        route: "/basavanagudi-to-bangalore-airport",
+        h1: "Basavanagudi to Bangalore Airport Taxi Near Me",
+        title: "Basavanagudi to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Basavanagudi to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "basavanagudi to bangalore airport taxi, airport taxi basavanagudi, cab from basavanagudi to airport, airport cab near me, taxi near me, basavanagudi airport taxi booking, kempegowda airport taxi basavanagudi"
+    },
+    {
+        id: 26,
+        route: "/bangalore-airport-to-basavanagudi",
+        h1: "Bangalore Airport to Basavanagudi Taxi Near Me",
+        title: "Bangalore Airport to Basavanagudi Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Basavanagudi taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to basavanagudi taxi, airport taxi to basavanagudi, cab from airport to basavanagudi, airport cab near me, taxi near me, basavanagudi airport taxi booking, kempegowda airport taxi basavanagudi"
+    },
+    {
+        id: 27,
+        route: "/jp-nagar-to-bangalore-airport",
+        h1: "JP Nagar to Bangalore Airport Taxi Near Me",
+        title: "JP Nagar to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable JP Nagar to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "jp nagar to bangalore airport taxi, airport taxi jp nagar, cab from jp nagar to airport, airport cab near me, taxi near me, jp nagar airport taxi booking, kempegowda airport taxi jp nagar"
+    },
+    {
+        id: 28,
+        route: "/bangalore-airport-to-jp-nagar",
+        h1: "Bangalore Airport to JP Nagar Taxi Near Me",
+        title: "Bangalore Airport to JP Nagar Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to JP Nagar taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to jp nagar taxi, airport taxi to jp nagar, cab from airport to jp nagar, airport cab near me, taxi near me, jp nagar airport taxi booking, kempegowda airport taxi jp nagar"
+    },
+    {
+        id: 29,
+        route: "/btm-layout-to-bangalore-airport",
+        h1: "BTM Layout to Bangalore Airport Taxi Near Me",
+        title: "BTM Layout to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable BTM Layout to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "btm layout to bangalore airport taxi, airport taxi btm layout, cab from btm layout to airport, airport cab near me, taxi near me, btm layout airport taxi booking, kempegowda airport taxi btm layout"
+    },
+    {
+        id: 30,
+        route: "/bangalore-airport-to-btm-layout",
+        h1: "Bangalore Airport to BTM Layout Taxi Near Me",
+        title: "Bangalore Airport to BTM Layout Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to BTM Layout taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to btm layout taxi, airport taxi to btm layout, cab from airport to btm layout, airport cab near me, taxi near me, btm layout airport taxi booking, kempegowda airport taxi btm layout"
+    },
+    {
+        id: 31,
+        route: "/banashankari-to-bangalore-airport",
+        h1: "Banashankari to Bangalore Airport Taxi Near Me",
+        title: "Banashankari to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Banashankari to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "banashankari to bangalore airport taxi, airport taxi banashankari, cab from banashankari to airport, airport cab near me, taxi near me, banashankari airport taxi booking, kempegowda airport taxi banashankari"
+    },
+    {
+        id: 32,
+        route: "/bangalore-airport-to-banashankari",
+        h1: "Bangalore Airport to Banashankari Taxi Near Me",
+        title: "Bangalore Airport to Banashankari Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Banashankari taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to banashankari taxi, airport taxi to banashankari, cab from airport to banashankari, airport cab near me, taxi near me, banashankari airport taxi booking, kempegowda airport taxi banashankari"
+    },
+    {
+        id: 33,
+        route: "/rajajinagar-to-bangalore-airport",
+        h1: "Rajajinagar to Bangalore Airport Taxi Near Me",
+        title: "Rajajinagar to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Rajajinagar to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "rajajinagar to bangalore airport taxi, airport taxi rajajinagar, cab from rajajinagar to airport, airport cab near me, taxi near me, rajajinagar airport taxi booking, kempegowda airport taxi rajajinagar"
+    },
+    {
+        id: 34,
+        route: "/bangalore-airport-to-rajajinagar",
+        h1: "Bangalore Airport to Rajajinagar Taxi Near Me",
+        title: "Bangalore Airport to Rajajinagar Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Rajajinagar taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to rajajinagar taxi, airport taxi to rajajinagar, cab from airport to rajajinagar, airport cab near me, taxi near me, rajajinagar airport taxi booking, kempegowda airport taxi rajajinagar"
+    },
+    {
+        id: 35,
+        route: "/sadashivanagar-to-bangalore-airport",
+        h1: "Sadashivanagar to Bangalore Airport Taxi Near Me",
+        title: "Sadashivanagar to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Sadashivanagar to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "sadashivanagar to bangalore airport taxi, airport taxi sadashivanagar, cab from sadashivanagar to airport, airport cab near me, taxi near me, sadashivanagar airport taxi booking, kempegowda airport taxi sadashivanagar"
+    },
+    {
+        id: 36,
+        route: "/bangalore-airport-to-sadashivanagar",
+        h1: "Bangalore Airport to Sadashivanagar Taxi Near Me",
+        title: "Bangalore Airport to Sadashivanagar Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Sadashivanagar taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to sadashivanagar taxi, airport taxi to sadashivanagar, cab from airport to sadashivanagar, airport cab near me, taxi near me, sadashivanagar airport taxi booking, kempegowda airport taxi sadashivanagar"
+    },
+    {
+        id: 37,
+        route: "/domlur-to-bangalore-airport",
+        h1: "Domlur to Bangalore Airport Taxi Near Me",
+        title: "Domlur to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Domlur to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "domlur to bangalore airport taxi, airport taxi domlur, cab from domlur to airport, airport cab near me, taxi near me, domlur airport taxi booking, kempegowda airport taxi domlur"
+    },
+    {
+        id: 38,
+        route: "/bangalore-airport-to-domlur",
+        h1: "Bangalore Airport to Domlur Taxi Near Me",
+        title: "Bangalore Airport to Domlur Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Domlur taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to domlur taxi, airport taxi to domlur, cab from airport to domlur, airport cab near me, taxi near me, domlur airport taxi booking, kempegowda airport taxi domlur"
+    },
+    {
+        id: 39,
+        route: "/ulsoor-to-bangalore-airport",
+        h1: "Ulsoor to Bangalore Airport Taxi Near Me",
+        title: "Ulsoor to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Ulsoor to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "ulsoor to bangalore airport taxi, airport taxi ulsoor, cab from ulsoor to airport, airport cab near me, taxi near me, ulsoor airport taxi booking, kempegowda airport taxi ulsoor"
+    },
+    {
+        id: 40,
+        route: "/bangalore-airport-to-ulsoor",
+        h1: "Bangalore Airport to Ulsoor Taxi Near Me",
+        title: "Bangalore Airport to Ulsoor Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Ulsoor taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to ulsoor taxi, airport taxi to ulsoor, cab from airport to ulsoor, airport cab near me, taxi near me, ulsoor airport taxi booking, kempegowda airport taxi ulsoor"
+    },
+    {
+        id: 41,
+        route: "/mg-road-to-bangalore-airport",
+        h1: "MG Road to Bangalore Airport Taxi Near Me",
+        title: "MG Road to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable MG Road to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "mg road to bangalore airport taxi, airport taxi mg road, cab from mg road to airport, airport cab near me, taxi near me, mg road airport taxi booking, kempegowda airport taxi mg road"
+    },
+    {
+        id: 42,
+        route: "/bangalore-airport-to-mg-road",
+        h1: "Bangalore Airport to MG Road Taxi Near Me",
+        title: "Bangalore Airport to MG Road Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to MG Road taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to mg road taxi, airport taxi to mg road, cab from airport to mg road, airport cab near me, taxi near me, mg road airport taxi booking, kempegowda airport taxi mg road"
+    },
+    {
+        id: 43,
+        route: "/brigade-road-to-bangalore-airport",
+        h1: "Brigade Road to Bangalore Airport Taxi Near Me",
+        title: "Brigade Road to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Brigade Road to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "brigade road to bangalore airport taxi, airport taxi brigade road, cab from brigade road to airport, airport cab near me, taxi near me, brigade road airport taxi booking, kempegowda airport taxi brigade road"
+    },
+    {
+        id: 44,
+        route: "/bangalore-airport-to-brigade-road",
+        h1: "Bangalore Airport to Brigade Road Taxi Near Me",
+        title: "Bangalore Airport to Brigade Road Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Brigade Road taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to brigade road taxi, airport taxi to brigade road, cab from airport to brigade road, airport cab near me, taxi near me, brigade road airport taxi booking, kempegowda airport taxi brigade road"
+    },
+    {
+        id: 45,
+        route: "/bannerghatta-road-to-bangalore-airport",
+        h1: "Bannerghatta Road to Bangalore Airport Taxi Near Me",
+        title: "Bannerghatta Road to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bannerghatta Road to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bannerghatta road to bangalore airport taxi, airport taxi bannerghatta road, cab from bannerghatta road to airport, airport cab near me, taxi near me, bannerghatta road airport taxi booking, kempegowda airport taxi bannerghatta road"
+    },
+    {
+        id: 46,
+        route: "/bangalore-airport-to-bannerghatta-road",
+        h1: "Bangalore Airport to Bannerghatta Road Taxi Near Me",
+        title: "Bangalore Airport to Bannerghatta Road Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Bannerghatta Road taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to bannerghatta road taxi, airport taxi to bannerghatta road, cab from airport to bannerghatta road, airport cab near me, taxi near me, bannerghatta road airport taxi booking, kempegowda airport taxi bannerghatta road"
+    },
+    {
+        id: 47,
+        route: "/kr-puram-to-bangalore-airport",
+        h1: "KR Puram to Bangalore Airport Taxi Near Me",
+        title: "KR Puram to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable KR Puram to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "kr puram to bangalore airport taxi, airport taxi kr puram, cab from kr puram to airport, airport cab near me, taxi near me, kr puram airport taxi booking, kempegowda airport taxi kr puram"
+    },
+    {
+        id: 48,
+        route: "/bangalore-airport-to-kr-puram",
+        h1: "Bangalore Airport to KR Puram Taxi Near Me",
+        title: "Bangalore Airport to KR Puram Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to KR Puram taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to kr puram taxi, airport taxi to kr puram, cab from airport to kr puram, airport cab near me, taxi near me, kr puram airport taxi booking, kempegowda airport taxi kr puram"
+    },
+    {
+        id: 49,
+        route: "/devanahalli-to-bangalore-airport",
+        h1: "Devanahalli to Bangalore Airport Taxi Near Me",
+        title: "Devanahalli to Bangalore Airport Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Devanahalli to Bangalore Airport taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "devanahalli to bangalore airport taxi, airport taxi devanahalli, cab from devanahalli to airport, airport cab near me, taxi near me, devanahalli airport taxi booking, kempegowda airport taxi devanahalli"
+    },
+    {
+        id: 50,
+        route: "/bangalore-airport-to-devanahalli",
+        h1: "Bangalore Airport to Devanahalli Taxi Near Me",
+        title: "Bangalore Airport to Devanahalli Taxi Near Me | RKN Airport Taxi",
+        description: "Book a fast and reliable Bangalore Airport to Devanahalli taxi near you. Get fixed airport cab fares, on-time pickup, clean vehicles, and professional drivers with RKN Airport Taxi available 24/7.",
+        keywords: "bangalore airport to devanahalli taxi, airport taxi to devanahalli, cab from airport to devanahalli, airport cab near me, taxi near me, devanahalli airport taxi booking, kempegowda airport taxi devanahalli"
+    }
+]
+
+
+
+export const homeSeo = {
+    route: "/",
+    h1: "RKN Airport Taxi – 24/7 Pickup & Drop",
+    title: "Bangalore Airport Taxi Near Me | RKN Airport Taxi – 24/7 Cab Service",
+    description:
+        "RKN Airport Taxi offers reliable Bangalore airport taxi services near you. Book 24/7 airport pickup & drop to Kempegowda Airport with fixed fares, clean cabs, and professional drivers.",
+    keywords: `
+bangalore airport taxi,
+airport taxi near me,
+kempegowda airport taxi,
+bangalore airport cab,
+airport cab near me,
+airport pickup bangalore,
+airport drop bangalore,
+24/7 airport taxi bangalore,
+cheap airport taxi bangalore,
+best airport taxi bangalore,
+bangalore airport taxi service,
+cab from bangalore to airport,
+taxi service near bangalore airport,
+airport taxi booking bangalore,
+trusted airport taxi bangalore,
+safe airport cab bangalore,
+luxury airport taxi bangalore,
+innova airport taxi bangalore,
+sedan airport taxi bangalore,
+online airport taxi booking
+`
+};
+
+
+
+
+/*
+ 
+     {airportTaxiRoutes.map(route => (
+                  <Route
+                    key={route.id}
+                    path={route.slug}
+                    element={<Home title={route.anchor} />}
+                  />
+                ))}
+ 
+ 
+ 
+ 
+                {airportLinks.map(route => (
+                  <Route
+                    key={route.id}
+                    path={route.slug}
+                    element={<Home title={route.text} />}
+                  />
+                ))}
+*/
