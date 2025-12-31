@@ -4,7 +4,7 @@ import express from "express"
 import { addVehicle, allVehicles, getVehicle, updateVehicle, deleteVehicle, getAllVehiclesBookingType } from "../controllers/vehicleController.js"
 import upload from "../middlewares/uploadImage.js";
 import authAdmin from "../middlewares/authAdmin.js"
-
+import updateImage from "../middlewares/updateImage.js"
 
 
 const vehicleRouter = express.Router()

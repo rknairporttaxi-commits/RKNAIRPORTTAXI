@@ -13,7 +13,7 @@ const categoriesRouter = express.Router()
 
 
 
-//categoriesRouter.post("/addCategory", authAdmin, addCategory)
+categoriesRouter.post("/addCategory", authAdmin, addCategory)
 categoriesRouter.post("/getCategories", authAdmin, getCategories)
 categoriesRouter.post("/addName", authAdmin, addVehicleName)
 categoriesRouter.post("/getVNames/:categoryId", authAdmin, getVehicleNames)

@@ -17,7 +17,7 @@ const VehicleItem = ({ item, getAllVehicles }) => {
     return (
 
         <div className="bg-white rounded-lg ">
-            <div className="px-2 py-2 flex justify-center my-1 ">
+            <div className="px-2 py-2 flex justify-center my-1 w-full h-50">
                 <img src={imageUrl} alt={vehicle} loading="lazy" width={900} height={550} />
             </div>
 

@@ -99,9 +99,11 @@ const VehicleDetails = () => {
 
     }, [])
 
+    console.log(categoriesList)
+
     return (
-        <div className='bg-gray-300 px-5 py-5 min-h-screen w-full sm:px-20 sm:py-20'>
-            <div className='my-5  bg-white px-4 py-8 rounded-md'>
+        <div className='bg-gray-300 px-5 py-5 min-h-screen w-full sm:px-20 sm:py-20 sm:flex justify-center'>
+            <div className='my-5  bg-white px-4 py-8 rounded-md sm:w-1/2'>
                 <h1 className='text-xl font-semibold text-center'>Update Vehicle</h1>
                 <div className='my-5'>
                     {
@@ -115,19 +117,19 @@ const VehicleDetails = () => {
                                 <div>
                                     <label htmlFor="vehicle" className="text-md text-gray-700 font-bold">Vehicle Name</label>
                                     <div className='border rounded-sm my-1'>
-                                        <p className='px-3 py-2 outline-none font-semibold'>{vehicle}</p>
+                                        <input value={vehicle} onChange={(e) => setVahicle(e.target.value)} className='px-3 py-2 outline-none font-semibold' />
                                     </div>
                                 </div>
                                 <div>
                                     <label htmlFor="bookingType" className="text-md text-gray-700 font-bold">Booking Type</label>
                                     <div className='border rounded-sm my-1'>
-                                        <div id="bookingType" className='w-full px-3 py-2 outline-none  font-semibold' value={bookingType} onChange={(e) => setBookingType(e.target.value)}>
+                                        <select id="bookingType" className='w-full px-3 py-2 outline-none  font-semibold' value={bookingType} onChange={(e) => setBookingType(e.target.value)}>
                                             {
-
-                                                <p>{categoriesList[0].name}</p>
-
+                                                categoriesList.map((item) => (
+                                                    <option key={item.id}>{item.name}</option>
+                                                ))
                                             }
-                                        </div>
+                                        </select>
                                     </div>
                                 </div>
 
@@ -158,12 +160,15 @@ const VehicleDetails = () => {
                                 <div>
                                     <label htmlFor="image" className="text-md text-gray-700 font-bold">Image</label>
 
-                                    <div className='my-5'>
+                                    <div className='my-5 flex items-center justify-center'>
                                         {
-                                            preview !== '' && <img src={preview} alt="preview" className='w-full h-full' />
+                                            preview !== '' && <img src={preview} alt="preview" className='w-[70%] h-50' />
                                         }
                                     </div>
                                 </div>
+
+
+
 
                                 <div className='flex justify-center my-3'>
 

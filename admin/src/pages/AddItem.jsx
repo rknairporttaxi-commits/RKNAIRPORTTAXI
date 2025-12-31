@@ -169,7 +169,7 @@ const AddItem = () => {
 
 
     return (
-        <div className='bg-gray-300 px-5 py-5 min-h-screen w-full sm:px-20 sm:py-20'>
+        <div className='bg-gray-300 px-5 py-5 min-h-screen w-full sm:px-20 sm:py-20 sm:flex justify-center'>
 
             {
                 mainLoading ? <div className='flex justify-center'>
@@ -178,7 +178,7 @@ const AddItem = () => {
 
 
                 </div> :
-                    <div className='my-5  bg-white px-4 py-8 rounded-md'>
+                    <div className='my-5 sm:w-1/2 bg-white px-4 py-8 rounded-md'>
                         <h1 className='text-xl font-semibold text-center'>Add New Vehicle</h1>
                         <form className='my-5 sm:p-5 grid grid-cols-1  gap-4 ' onSubmit={onSubmitHandler}>
 
@@ -252,9 +252,9 @@ const AddItem = () => {
                                 <div className='border rounded-sm my-1'>
                                     <input type="file" accept="image/*" id="image" className='px-3 py-2 outline-none font-semibold' onChange={handleImageChange} required />
                                 </div>
-                                <div className='my-5'>
+                                <div className='my-5 flex items-center justify-center'>
                                     {
-                                        preview !== '' && <img src={preview} alt="preview" className='w-full h-full' />
+                                        preview !== '' && <img src={preview} alt="preview" className='w-[70%] h-50' />
                                     }
                                 </div>
                             </div>

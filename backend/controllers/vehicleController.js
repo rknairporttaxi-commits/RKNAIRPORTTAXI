@@ -78,10 +78,10 @@ export const getVehicle = async (req, res) => {
     try {
 
         const { id } = req.params
-        console.log(id)
+        //console.log(id)
 
         const getVehicle = await Vehicles.findOne({ _id: id })
-        console.log(getVehicle)
+        //console.log(getVehicle)
 
         if (getVehicle !== undefined || getVehicle !== null) {
             return res.json({
@@ -115,8 +115,8 @@ export const updateVehicle = async (req, res) => {
 
     try {
 
-        const { vehicle, bookingType, price, capacity } = req.body
-        //console.log(req.body)
+        const { vehicle, bookingType, price, capacity, image } = req.body
+        console.log(req.body)
         const { id } = req.params
         // console.log(id)
         const isVehicle = await Vehicles.findOne({ _id: id })
@@ -127,6 +127,11 @@ export const updateVehicle = async (req, res) => {
                 message: "Invalid Vehicle Id "
             })
         }
+
+
+
+
+
 
         const getVehicle = await Vehicles.updateOne({ _id: id }, { vehicle, bookingType, price, capacity })
         //console.log(getVehicle)
