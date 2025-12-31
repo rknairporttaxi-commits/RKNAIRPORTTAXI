@@ -44,15 +44,15 @@ const LuxuryItem = ({ item }) => {
 
             <div className="px-5 flex  flex-col items-center gap-2 ">
 
-                <h3 className="text-2xl text-[#111827] font-bold text-medium sm:text-2xl">{vehicle}</h3>
+                <h3 className="text-xl text-[#111827] font-bold text-medium sm:text-2xl">{vehicle}</h3>
                 <div className="flex items-center gap-x-2 text-sm sm:text-2xl">
                     <FaUsers className="text-[#111827] " />
                     <p className="text-xl sm:text-xl text-[#111827] font-semibold">Capacity : {capacity}+1</p>
                 </div>
                 <div className="flex items-center gap-x-2">
-                    <p className="text-[#111827]   text-md  sm:text-xl font-semibold">A/C </p>
-                    <p className="text-[#111827]  text-md  sm:text-xl font-semibold">₹</p>
-                    <p className="text-[#111827]  text-md  sm:text-xl font-semibold">{ac} / Km</p>
+                    <p className="text-[#111827]   text-sm  sm:text-xl font-semibold">A/C </p>
+                    <p className="text-[#111827]  text-sm  sm:text-xl font-semibold">₹</p>
+                    <p className="text-[#111827]  text-sm  sm:text-xl font-semibold">{ac} / Km</p>
                 </div>
                 {
                     /*
@@ -65,11 +65,11 @@ const LuxuryItem = ({ item }) => {
                     */
                 }
                 <div>
-                    <p className="text-[#111827]   text-md  sm:text-xl font-semibold">(Toll & Parking Charges Extra)</p>
+                    <p className="text-[#111827]   text-sm  sm:text-xl font-semibold">(Toll & Parking Charges Extra)</p>
                 </div>
                 <div className="flex items-center gap-x-3 my-2">
 
-                    <Link to={`/booking/${_id}`} aria-label="Book Airport Taxi" className="sm:bg-blue-400 text-md w-40 bg-blue-600 text-white px-5 py-2 rounded-md text-md sm:text-xl sm:px-6 font-semibold  mb-5 mt-2 cursor-pointer text-center">
+                    <Link to={`/booking/${_id}`} aria-label="Book Airport Taxi" className="sm:bg-blue-400  w-40 bg-blue-600 text-white px-5 py-2 rounded-md text-sm sm:text-xl sm:px-6 font-semibold  mb-5 mt-2 cursor-pointer text-center">
 
                         Book Now
 

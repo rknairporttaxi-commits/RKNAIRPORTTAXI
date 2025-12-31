@@ -36,7 +36,7 @@ const VehicleDetails = () => {
         console.log(vehicle, bookingType, price, capacity, ac, driverBata)
 
         const response = await axios.post(`${backendUrl}/api/vehicle/update/${id}`, { vehicle, bookingType, price, capacity, ac, driverBata }, { headers: { token } })
-        console.log(response.data.vehicleDetails)
+
 
         if (response.data.success === true) {
 

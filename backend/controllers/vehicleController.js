@@ -115,7 +115,7 @@ export const updateVehicle = async (req, res) => {
 
     try {
 
-        const { vehicle, bookingType, price, capacity, image } = req.body
+        const { vehicle, bookingType, price, capacity, ac, driverBata } = req.body
         console.log(req.body)
         const { id } = req.params
         // console.log(id)
@@ -133,10 +133,12 @@ export const updateVehicle = async (req, res) => {
 
 
 
-        const getVehicle = await Vehicles.updateOne({ _id: id }, { vehicle, bookingType, price, capacity })
-        //console.log(getVehicle)
+        const getVehicle = await Vehicles.updateOne({ _id: id }, { vehicle, bookingType, price, capacity, ac, driverBata })
+
+
 
         if (getVehicle !== undefined || getVehicle !== null) {
+            console.log("Vehicle Details Updated.")
             return res.json({
                 success: true,
 
@@ -144,6 +146,7 @@ export const updateVehicle = async (req, res) => {
             })
 
         } else {
+            console.log("Invalid Vehicle Id ")
             res.json({
                 success: false,
                 message: "Invalid Vehicle Id "

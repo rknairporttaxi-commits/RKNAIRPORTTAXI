@@ -46,7 +46,7 @@ const VehicleItem = ({ item }) => {
                 <h3 className="text-center text-xl text-[#111827] font-bold text-medium sm:text-2xl">{vehicle}</h3>
                 <div className="text-center flex items-center gap-x-2 text-sm sm:text-2xl">
                     <FaUsers className="text-[#111827] " />
-                    <p className="text-center text-xl sm:text-md text-[#111827] font-semibold">Capacity : {capacity}+1</p>
+                    <p className="text-center text-xl sm:text-xl text-[#111827] font-semibold">Capacity : {capacity}+1</p>
                 </div>
                 <div className="text-center flex items-center gap-x-2">
                     <p className="text-[#111827]   text-sm  sm:text-xl font-semibold">A/C </p>
